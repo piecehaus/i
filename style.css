@@ -1,0 +1,100 @@
+		*{
+ margin : 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+	margin: 10px;
+    background-color: white;
+    font-family: monospace;
+	font-size: 13px;
+}
+
+img {
+	width: 300px;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: white;
+  background-color: deepskyblue;
+}
+
+ul {
+	list-style: none;
+	font-size: 1.2rem;
+}
+
+hr {
+	margin: 10px 0 20px;
+}
+
+
+
+table {
+  width: 400px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+td {
+  border-bottom: 1px dotted gray;
+  border-left: 0px dotted gray;
+  border-collapse: collapse;
+  padding: 5px;
+  font-size: 13px;
+  line-height: 1.5;
+  padding-left: 13px;
+}
+
+th {
+  border-left: 3px dotted;
+  padding-left: 10px;
+  line-height: 25px;
+  font-weight: bold;
+  color: black;
+}
+
+li {
+  margin-left: 20px;
+}
+
+footer {
+  font-size: 9pt;
+  margin: 10px;
+  text-align: center;
+}
+
+a {
+  color: deepskyblue;
+}
+
+a:visited {
+  color: deepskyblue;
+}
+
+.card {
+  width: 320px;
+  text-align: center;
+}
+
+
+.right {
+  text-align: right;
+  font-style: italic;
+}
+
+
+.click:hover {
+  background-color: DeepSkyBlue;
+  color: white;
+}
+
+
+@media screen and (max-width: 704px) {
+
+}
